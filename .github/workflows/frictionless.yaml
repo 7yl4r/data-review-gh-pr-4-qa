@@ -21,4 +21,3 @@ jobs:
         uses: frictionlessdata/repository@v2
         with:
           resources: "*.resource.yaml"
-	  
