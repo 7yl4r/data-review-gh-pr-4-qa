@@ -1,1 +1,3 @@
-Zooplankton data from S FL MBON cruises around the FL keys.
+Put the DwC archive files here.
+Currently validated files:
+* `occurrences.csv`
