@@ -1,0 +1,48 @@
+name: occurrences
+type: table
+path: dwc-data-occurrence-core/s-fl-mbon-zooplankton-jaime/occurrences.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+schema:
+  fields:
+    - name: decimalLatitude
+      type: number
+    - name: decimalLongitude
+      type: number
+    - name: eventDate
+      type: string
+    - name: occurrenceID
+      type: string
+    - name: scientificName
+      type: string
+    - name: individualCount
+      type: integer
+    - name: lifeStage
+      type: string
+    - name: occurrenceStatus
+      type: string
+    - name: preparations
+      type: string
+    - name: scientificNameID
+      type: string
+    - name: basisOfRecord
+      type: string
+    - name: datasetID
+      type: string
+    - name: identificationReferences
+      type: string
+    - name: verbatimIdentification
+      type: string
+    - name: georeferenceVerificationStatus
+      type: string
+    - name: dispostion
+      type: string
+    - name: coordinateUncertaintyInMeters
+      type: integer
+    - name: minimumDepthInMeters
+      type: integer
+    - name: maximumDepthInMeters
+      type: integer
+  primaryKey: occurrenceID
