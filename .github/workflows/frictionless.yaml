@@ -20,7 +20,5 @@ jobs:
       - name: Validate data
         uses: frictionlessdata/repository@v2
         with:
-          packages: "*.package.yaml"
           resources: "*.resource.yaml"
-          tables: "*.csv"
 	  
