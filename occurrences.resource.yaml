@@ -1,6 +1,6 @@
 name: occurrences
 type: table
-path: dwc-data-occurrence-core/s-fl-mbon-zooplankton-jaime/occurrences.csv
+path: dwc-archive-to-validate/occurrences.csv
 scheme: file
 format: csv
 mediatype: text/csv
