@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          lfs: true # add this to download LFS files
-          submodules: true # add this to download submodules
+          lfs: false # add this to download LFS files
+          submodules: false # add this to download submodules
       - name: Validate data
         uses: frictionlessdata/repository@v2
