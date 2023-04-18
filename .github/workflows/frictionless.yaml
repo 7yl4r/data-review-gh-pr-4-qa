@@ -19,3 +19,8 @@ jobs:
           submodules: false # add this to download submodules
       - name: Validate data
         uses: frictionlessdata/repository@v2
+        with:
+	  packages: "*.package.yaml"
+	  resources: "*.resource.yaml"
+	  tables: "*.csv"
+	  
