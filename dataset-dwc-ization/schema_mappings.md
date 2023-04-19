@@ -5,9 +5,11 @@ graph LR
 
 subgraph sp_csv
     jaime_clsification --> tylar_interpretation
+    jaime_clsification --> lifestage
 end
 
 tylar_interpretation --> clasification
+lifestage --> lifeStage
 
 subgraph zoo_compiled_with_meta_20230411_csv
     sheet_nm
@@ -83,7 +85,6 @@ loc_fix --> decimalLongitude
 %% WoRMS
 taxa_orig --> WoRMS{{WoRMS lookup}}
 WoRMS --> scientificName
-WoRMS --> lifeStage
 WoRMS --> scientificNameID
 
 subgraph occurrences_csv
