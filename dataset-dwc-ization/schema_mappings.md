@@ -9,7 +9,7 @@ end
 
 tylar_interpretation --> clasification
 
-subgraph raw
+subgraph zoo_compiled_with_meta_20230411_csv
     sheet_nm
     year
     month
@@ -86,7 +86,7 @@ WoRMS --> scientificName
 WoRMS --> lifeStage
 WoRMS --> scientificNameID
 
-subgraph dwc
+subgraph occurrences_csv
     occurrenceID
     eventDate
     decimalLatitude
